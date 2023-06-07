@@ -1,0 +1,216 @@
+@media only screen and (min-width : 992px) {
+    .navbar > .container {
+        flex-wrap: inherit;
+    }
+
+    .navbar-nav.w-lg-50 {
+        width: 50%;
+    }
+
+    .navbar-nav a {
+        text-align: center;
+    }
+    .navbar-nav.w-lg-50.justify-content-around {
+        justify-content: flex-end;
+    }
+
+    .navbar-brand {
+        position: initial;
+        transform: none;
+    }
+
+    #top_menu {
+        top: 0;
+        width: 50%;
+    }
+
+    #top_menu:not(.show) ul {
+        display: inherit;
+    }
+
+    #top_menu.navbar-nav {
+        display: none;
+        opacity: 0;
+    }
+
+    header li a, nav a {
+        opacity: 0.8;
+
+        font-size: 12px !important;
+        line-height: 16px;
+        margin-top: auto !important;
+    }
+
+    #top_menu > ul:first-child > li:first-child a {
+        padding-top: 10px;
+        margin: initial;
+    }
+
+    #top_menu > ul:first-child > li:not(:last-child) a::after {
+        display: none;
+    }
+
+    #top_menu ul li a:hover {
+        background-color: initial;
+        color: var(--light-main);
+        font-weight: bold;
+    }
+
+    .product {
+        margin-top: 143px;
+    }
+
+    .ellipses-container {
+        position: relative;
+    }
+
+    .ellipses {
+        position: absolute;
+        bottom: -125px;
+        left: 43px;
+    }
+
+
+    .spiral-container {
+        width: 212px;
+        height: 167px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .spiral {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 424px;
+        height: 167px;
+        transform-origin: 50% 50%;
+        transform: translateX(-50%);
+    }
+
+    .spiral path,
+    .spiral ellipse {
+        stroke: white;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .spiral-path,
+    .spiral-ellipse1,
+    .spiral-path2,
+    .spiral-path3,
+    .spiral-path4 {
+        animation: spiralAnimation 10s infinite linear;
+    }
+
+    .spiral-path,
+    .spiral-path3 {
+        stroke-dasharray: 10 10;
+    }
+
+    @keyframes spiralAnimation {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            opacity: 1;
+        }
+        51% {
+            opacity: 0;
+            transform: translateX(106px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .star-sprite {
+        position: relative;
+        opacity: 0;
+        animation: fade-in 0.5s forwards;
+    }
+
+    .star-phase {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .fade-in {
+        animation: fade-in 0.5s forwards;
+    }
+
+    .fade-out {
+        animation: fade-out 0.5s forwards;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade-out {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+
+    .pros {
+        margin-top: 186px;
+    }
+
+    .pros-header {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 16px
+    }
+
+    .pros-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pro {
+        /*width: 332px;*/
+        /*height: 78px;*/
+        margin: 60px 80px 0 80px;
+        flex-basis: auto;
+        position: relative;
+    }
+
+    .pro:nth-child(2n+1):last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pro + .pro {
+        padding-top: 14px;
+        margin-left: 2%;
+    }
+
+    .features {
+        margin-top: 59px;
+    }
+
+    .features-header {
+        font-size: 40px;
+        line-height: 26px;
+        margin-bottom: 81px;
+    }
+
+    .features .carousel-item .col {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}

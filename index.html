@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container h-100 d-flex align-items-center">
+            <button class="navbar-toggler menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#top_menu"
+                    aria-expanded="true">
+                <img src="/img/icons/menu.svg" alt="mobile menu icon">
+            </button>
+
+            <a href="index.html" class="navbar-brand logo justify-content-center text-center">
+                <img src="img/plancy.svg" alt="plancy logo">
+                <span class="ms-2">Plancy</span>
+            </a>
+
+            <div class="collapse navbar-collapse justify-content-end align-items-center d-sm-block d-lg-none"
+                 id="top_menu">
+                <ul class="navbar-nav w-lg-50 justify-content-around ms-auto me-5 mx-sm-4">
+                    <li class="nav-item col"><a class="nav-link text-center-lg" href="#">About</a></li>
+                    <li class="nav-item col"><a class="nav-link text-center-lg" href="#">Pricing</a></li>
+                    <li class="nav-item col"><a class="nav-link text-center-lg" href="#">Contact</a></li>
+                    <li class="nav-item col"><a class="nav-link text-center-lg" href="#">Blog</a></li>
+                </ul>
+                <button class="btn-purple ml-auto ml-lg-0 pl-5 d-sm-none d-lg-block">
+                    Free download
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="product-header text-sm-center  text-lg-start">
+                        The most beautiful <span class="product-gradient">planner</span> app
+                    </div>
+
+                    <div class="product-text">
+                        Plancy does a great job planning your day, week, and month. User experience was crafted to give
+                        you the most from using it on both iPhone and iPad.
+                    </div>
+
+                    <form method="post" action="">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="d-flex">
+                                    <div class="vertical-pipe"></div>
+                                    <div class="form-control">
+                                        <input type="email" name="email" id="email" placeholder="Leave your email">
+                                        <div class="line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-sm-4 mt-lg-0">
+                                <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#modalContact">Contact us</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+
+                <div class="d-none d-lg-block col-lg-6">
+                    <div class="star-sprite"></div>
+                    <div class="star-sprite"></div>
+                    <div class="star-sprite"></div>
+                    <div class="star-sprite"></div>
+
+                    <div class="d-none d-lg-block col-lg-6 ellipses-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="100 150 300 350" class="ellipses">
+                        <ellipse class="ellipse1" cx="250" cy="250" rx="0" ry="0" fill="none" stroke="#DDDDDD">
+                            <animate attributeName="ry" from="0" to="50" dur="5s" repeatCount="indefinite" begin="1s" />
+                            <animate attributeName="cy" from="475" to="275" dur="5s" repeatCount="indefinite" begin="1s" />
+                            <animate attributeName="rx" from="0" to="150" dur="5s" repeatCount="indefinite" begin="1s" />
+                        </ellipse>
+                        <ellipse class="ellipse2" cx="250" cy="250" rx="0" ry="0" fill="none" stroke="#DDDDDD" stroke-dasharray="4 4">
+                            <animate attributeName="ry" from="0" to="50" dur="5s" repeatCount="indefinite" begin="2s" />
+                            <animate attributeName="cy" from="475" to="275" dur="5s" repeatCount="indefinite" begin="2s" />
+                            <animate attributeName="rx" from="0" to="150" dur="5s" repeatCount="indefinite" begin="2s" />
+                        </ellipse>
+                        <ellipse class="ellipse3" cx="250" cy="250" rx="0" ry="0" fill="none" stroke="#DDDDDD">
+                            <animate attributeName="ry" from="0" to="50" dur="5s" repeatCount="indefinite" begin="3s" />
+                            <animate attributeName="cy" from="475" to="275" dur="5s" repeatCount="indefinite" begin="3s" />
+                            <animate attributeName="rx" from="0" to="150" dur="5s" repeatCount="indefinite" begin="3s" />
+                        </ellipse>
+                        <ellipse class="ellipse4" cx="250" cy="250" rx="0" ry="0" fill="none" stroke="#DDDDDD" stroke-dasharray="4 4">
+                            <animate attributeName="ry" from="0" to="50" dur="5s" repeatCount="indefinite" begin="4s" />
+                            <animate attributeName="cy" from="475" to="275" dur="5s" repeatCount="indefinite" begin="4s" />
+<!--                            <animate attributeName="cy" from="475" to="425" dur="5s" repeatCount="indefinite" begin="4s" />-->
+                            <animate attributeName="rx" from="0" to="150" dur="5s" repeatCount="indefinite" begin="4s" />
+                        </ellipse>
+                        <ellipse class="ellipse5" cx="250" cy="250" rx="0" ry="0" fill="none" stroke="#DDDDDD">
+                            <animate attributeName="ry" from="0" to="50" dur="5s" repeatCount="indefinite" begin="5s" />
+                            <animate attributeName="cy" from="475" to="275" dur="5s" repeatCount="indefinite" begin="5s" />
+<!--                            <animate attributeName="cy" from="475" to="475" dur="5s" repeatCount="indefinite" begin="5s" />-->
+                            <animate attributeName="rx" from="0" to="150" dur="5s" repeatCount="indefinite" begin="5s" />
+                        </ellipse>
+                    </svg>
+                    </div>
+                    <img src="img/asset-plancy.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pros">
+        <div class="container">
+            <div class="row">
+                <div class="pros-header">
+                    Over 12 million people rely on <span class="product-gradient">Plancy</span> app
+                </div>
+
+                <div class="pros-wrapper align-content-sm-center align-items-center">
+                    <div class="star-sprite"></div>
+                    <div class="star-sprite"></div>
+                    <div class="star-sprite"></div>
+                    <div class="star-sprite"></div>
+
+                    <div class="pro">
+                        We have a powerful iPhone calendar app on our hands here – meetings, locations, notes,
+                        tasks…everything under one roof.
+                    </div>
+                    <div class="pro">
+                        When it comes to combining both tasks lists and calendar events into one, the Plancy app
+                        currently does it best.
+                    </div>
+                    <div class="pro">
+                        Plancy gets close to being my ideal iPhone calendar app for the current state of calendar and
+                        reminders clients.
+                    </div>
+                </div>
+
+                <div class="spiral-container d-none d-lg-block">
+                    <svg class="spiral" width="212" height="167" viewBox="0 0 212 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="spiral-path" d="M102.402 83.5C102.402 37.9365 85.1644 0.999999 63.9004 1C42.6364 1 25.3985 37.9365 25.3985 83.5C25.3985 129.063 42.6364 166 63.9004 166" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 10"/>
+                        <ellipse class="spiral-ellipse1" cx="100.1" cy="83.5" rx="38.5019" ry="82.5" transform="rotate(-90 100.1 83.5)" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <ellipse class="spiral-ellipse2" cx="-8.49815" cy="83.5" rx="38.5019" ry="82.5" transform="rotate(-90 -8.49815 83.5)" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="spiral-path2" d="M136.299 1C115.035 1 97.797 37.9365 97.797 83.5C97.797 129.063 115.035 166 136.299 166C157.563 166 174.801 129.063 174.801 83.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="spiral-path3" d="M211 83.5C211 37.9365 193.762 0.999999 172.498 1C151.234 1 133.996 37.9365 133.996 83.5C133.996 129.063 151.234 166 172.498 166" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 10"/>
+                        <path class="spiral-path4" d="M27.7011 1C6.43714 1 -10.8007 37.9365 -10.8007 83.5C-10.8007 129.063 6.43715 166 27.7011 166C48.9651 166 66.203 129.063 66.203 83.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="features-header">
+                    Features you'll <span class="product-gradient">love</span>
+                </div>
+                <div class="features-slider">
+                    <!-- Swiper -->
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent align-items-center">
+                                    <img src="/img/icons/icon-invite.svg" class="card-img-top" alt="icon-invite">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Invite people <br> to your events</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent align-items-center">
+                                    <img src="/img/icons/icon-video.svg" class="card-img-top" alt="icon-video">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Video calls <br> integration</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent align-items-center">
+                                    <img src="/img/icons/icon-location.svg" class="card-img-top" alt="icon-location">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Use Apple Maps <br> or Google Maps</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent align-items-center">
+                                    <img src="/img/icons/icon-hide.svg" class="card-img-top" alt="icon-hide">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Hide calendars <br> you don't need</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Duplicated Last Item-->
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent align-items-center">
+                                    <img src="/img/icons/icon-hide.svg" class="card-img-top" alt="icon-hide">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Hide calendars <br> you don't need</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <!-- End of Swiper -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="modalContact" tabindex="-1" aria-labelledby="modalContactLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
+            <div class="modal-content modal-square">
+                <div class="modal-header border-0 d-flex top-5 end-5 justify-content-end">
+                    <button type="button" class="btn-close position-absolute top-5 end-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center mb-3">
+                        <img src="img/icons/ok.svg" height="42" width="42" alt="ok">
+                    </div>
+                    <h1 class="text-center title">Thank you!</h1>
+                    <p class="text-center content">We’ve received your request and will get back to you soon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal -->
+</main>
+
+<script src="js/libs/jquery-3.7.0.min.js"></script>
+<script src="js/libs/popper.min.js"></script>
+<script src="js/libs/bootstrap.bundle.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/libs/swiper-bundle.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
