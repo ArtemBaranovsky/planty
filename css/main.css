@@ -13,6 +13,11 @@ body {
     --grey-main: #222222;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 header {
     height: 60px;
     background-color: var(--dark-main);
